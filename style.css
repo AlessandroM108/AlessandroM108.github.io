@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #111222;
 }
@@ -119,10 +123,15 @@ section{
     margin-bottom: 50px;
 }
 
-.media-info li:nth-child(1), .media-info li:nth-child(4){
+.media-info li:nth-child(1), .media-info li:nth-child(5){
     padding-left: 100px;
 }
 
-.media-info li:nth-child(2), .media-info li:nth-child(3){
+.media-info li:nth-child(2), .media-info li:nth-child(4){
     padding-left: 50px;
+}
+
+.sec-03{
+    margin-bottom: 100px;
+
 }
